@@ -654,7 +654,7 @@ GuiManager(GuiNum, PictureFile, Height, Width) {
 	else
 	{	
 		Gui %GuiNum%: +LastFound +AlwaysOnTop -Caption +ToolWindow 
-		Gui %GuiNum%: Color, black 
+		Gui %GuiNum%: Color, grey 
 		Gui %GuiNum%: add, picture, h%Height% w%Width%, %PictureFile%
 		Winset, ExStyle, +0x20
 		WinSet, TransColor, 0 1000
